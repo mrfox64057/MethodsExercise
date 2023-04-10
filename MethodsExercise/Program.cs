@@ -2,8 +2,42 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+     
+        
+        public static int Sum(int num1, int num2)
         { 
+            var answer = num1 + num2;
+            return answer;
+        }
+        public static int Sub(int num1, int num2)
+        {
+            var answer = num1 - num2;
+            return answer;
+        }
+        public static int Div(int num1, int num2)
+        {
+            var answer = num1 / num2;
+            return answer;
+        }
+        public static int Multiply(int num1, int num2)
+        {
+            var answer = num1 * num2;
+            return answer;
+        }
+        static void Main(string[] args)
+        {
+            int answer = Sum(5, 5);
+            Console.WriteLine(answer);
+
+            int answer2 = Sub(5, 5);
+            Console.WriteLine(answer2);
+
+            int answer3 = Div(5, 5);
+            Console.WriteLine(answer3);
+
+            int answer4 = Multiply(5, 5);
+            Console.WriteLine(answer4);
+
             Console.WriteLine("Hi I am Zach, what is your name?");
             var UserName = Console.ReadLine();
             

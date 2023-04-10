@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MethodsExercise
 {
-    internal class Class1
+    internal class Methods
     {
+      
+
+      
     }
 }
